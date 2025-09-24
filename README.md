@@ -3,7 +3,8 @@
 A web app that predicts or analyzes energy consumption (or efficiency) of housing units using machine learning / data-driven models.  
 (This is a placeholder description — adjust it to reflect your project’s actual goals.)
 
-![Uploading Screenshot 2025-09-24 at 2.44.53 PM.png…]()
+<img width="1079" height="679" alt="Screenshot 2025-09-24 at 12 39 57 PM" src="https://github.com/user-attachments/assets/14af3ecb-25f0-4cf3-89e0-20325d48b8fe" />
+
 
 
 ## Table of Contents
