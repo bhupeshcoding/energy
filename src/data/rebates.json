@@ -1,0 +1,111 @@
+[
+  {
+    "id": "aus-solar-rebate-2024",
+    "title": "Solar Panel Rebate Scheme",
+    "description": "Get up to $2,500 rebate for installing solar panels on your home",
+    "amount": 2500,
+    "type": "rebate",
+    "category": "solar",
+    "region": ["NSW", "VIC", "QLD"],
+    "eligibility": {
+      "homeowner": true,
+      "income_threshold": 180000,
+      "property_type": ["house", "townhouse"],
+      "existing_solar": false
+    },
+    "tags": ["solar", "renewable", "electricity"],
+    "applicationUrl": "https://www.energy.gov.au/rebates/solar",
+    "deadline": "2024-12-31",
+    "processingTime": "6-8 weeks"
+  },
+  {
+    "id": "energy-efficient-appliance-rebate",
+    "title": "Energy Efficient Appliance Rebate",
+    "description": "Rebates for purchasing energy-efficient refrigerators, washing machines, and dishwashers",
+    "amount": 500,
+    "type": "rebate",
+    "category": "appliances",
+    "region": ["NSW", "VIC", "SA", "WA"],
+    "eligibility": {
+      "income_threshold": 120000,
+      "appliance_star_rating": 4,
+      "replace_old_appliance": true
+    },
+    "tags": ["appliances", "energy-star", "replacement"],
+    "applicationUrl": "https://www.environment.gov.au/energy/rebates/appliances",
+    "deadline": "2024-06-30",
+    "processingTime": "4-6 weeks"
+  },
+  {
+    "id": "insulation-upgrade-grant",
+    "title": "Home Insulation Upgrade Grant",
+    "description": "Grants for improving ceiling, wall, and floor insulation in rural homes",
+    "amount": 1200,
+    "type": "grant",
+    "category": "insulation",
+    "region": ["NSW", "VIC", "TAS", "SA"],
+    "eligibility": {
+      "location": "rural",
+      "home_age": 15,
+      "current_insulation_rating": 3
+    },
+    "tags": ["insulation", "thermal", "comfort"],
+    "applicationUrl": "https://www.industry.gov.au/grants/insulation",
+    "deadline": "2024-09-30",
+    "processingTime": "8-10 weeks"
+  },
+  {
+    "id": "heat-pump-rebate",
+    "title": "Heat Pump Hot Water System Rebate",
+    "description": "Rebate for replacing electric or gas hot water with efficient heat pump systems",
+    "amount": 1800,
+    "type": "rebate", 
+    "category": "hot-water",
+    "region": ["VIC", "SA", "WA", "TAS"],
+    "eligibility": {
+      "replacing_system": true,
+      "heat_pump_efficiency": 3.5,
+      "professional_installation": true
+    },
+    "tags": ["hot-water", "heat-pump", "efficiency"],
+    "applicationUrl": "https://www.sustainability.vic.gov.au/rebates/heat-pump",
+    "deadline": "2024-11-30",
+    "processingTime": "3-4 weeks"
+  },
+  {
+    "id": "window-replacement-rebate",
+    "title": "Energy Efficient Window Replacement",
+    "description": "Rebate for upgrading to double-glazed windows in rural properties",
+    "amount": 800,
+    "type": "rebate",
+    "category": "windows",
+    "region": ["ACT", "TAS", "SA"],
+    "eligibility": {
+      "window_type": "double-glazed",
+      "minimum_windows": 4,
+      "energy_rating": 5
+    },
+    "tags": ["windows", "double-glazed", "thermal"],
+    "applicationUrl": "https://www.actewagl.com.au/rebates/windows",
+    "deadline": "2024-08-31",
+    "processingTime": "5-7 weeks"
+  },
+  {
+    "id": "rural-energy-efficiency-package",
+    "title": "Rural Energy Efficiency Package",
+    "description": "Comprehensive package for rural homes including audit, improvements, and ongoing monitoring",
+    "amount": 5000,
+    "type": "package",
+    "category": "comprehensive",
+    "region": ["NSW", "QLD", "WA"],
+    "eligibility": {
+      "location": "rural",
+      "distance_from_city": 50,
+      "energy_audit_required": true
+    },
+    "tags": ["comprehensive", "audit", "monitoring"],
+    "applicationUrl": "https://www.regional.gov.au/energy-package",
+    "deadline": "2024-12-15",
+    "processingTime": "10-12 weeks"
+  }
+]
